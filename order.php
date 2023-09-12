@@ -1,12 +1,12 @@
 <?php include("inc/header.php") ?>
 
+
+<div class="site-section">
+    <div class="container">
     <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
             <h6 class="d-flex mb-3">
                 <span class="text-muted">Ваша корзина</span>
-                <span class="badge text-bg-success products-count">
-                    0
-                </span>
             </h6>
             <ul class="list-group mb-3 sticky-top order-list">
                 
@@ -114,6 +114,9 @@
             </form>
         </div>
     </div>
+    </div>
+ 
+</div>
 
-<?php include("inc/footer.php") ?> 
 
+<?php include("inc/footer.php") ?>
